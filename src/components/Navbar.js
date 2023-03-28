@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import logo from "../images/logo2.png"
 
 function Navbar() {
+
     return (
         <nav className='navbar'>
             <div className='nav-center'>
