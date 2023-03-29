@@ -2,6 +2,7 @@ import { useState } from "react";
 import {tours} from "../data";
 import Modal from "../components/Modal";
 function Narucivanje(){
+    /** */
     const [openModal, setOpenModal] = useState(false);
 
     function prikazi(){

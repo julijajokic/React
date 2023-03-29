@@ -1,6 +1,7 @@
 import Proizvodi from "../components/Proizvodi"
 import { useState,useEffect } from "react";
 function Pocetna({data, loading}){
+  /**/ 
     const [page, setPage] = useState(0)
     const [products, setProducts] = useState([]);
 
